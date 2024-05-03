@@ -11,8 +11,8 @@ driver = webdriver.Chrome(service=service)
 driver.get("https://canvas.phenikaa-uni.edu.vn/login/canvas")
 time.sleep(1)
 
-driver.find_element(By.ID, 'pseudonym_session_unique_id').send_keys("21010647@st.phenikaa-uni.edu.vn")
-driver.find_element(By.ID, 'pseudonym_session_password').send_keys("@Neverdie1001")
+driver.find_element(By.ID, 'pseudonym_session_unique_id').send_keys("21010614@st.phenikaa-uni.edu.vn")
+driver.find_element(By.ID, 'pseudonym_session_password').send_keys("28102003")
 time.sleep(1)
 
 driver.find_element(By.XPATH, '/html/body/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div[2]/form[1]/div[3]/div[1]/input[2]').click()
